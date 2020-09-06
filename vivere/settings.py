@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '$9$q6gy#6w&_^=e-w_!uia4pz=pxla8lae*sa*2ed=7%o0a^&n'
+SECRET_KEY = 'secret_key'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -85,7 +85,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'viveredb',
         'USER': 'postgres',
-        'PASSWORD': 'nimda',
+        'PASSWORD': 'your_password',
         'HOST': 'localhost'
     }
 }
