@@ -13,6 +13,7 @@ Project Vivere seeks to address this, and provides the user with a fullstack rea
 
 ## Stack
 
+Frontend and Backend:
 - Python (3.8)
 - Django (3.1)
 - PostgreSQL (12)
